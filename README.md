@@ -15,6 +15,7 @@
 2. **安装脚本**
    - 打开此链接安装：[智慧中小学秒刷.user.js](https://scriptcat.org/scripts/code/7353/%E6%99%BA%E6%85%A7%E4%B8%AD%E5%B0%8F%E5%AD%A6%E7%A7%92%E5%88%B7!!%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90!!%E5%9B%BD%E5%AE%B6%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%99%BA%E6%85%A7%E6%95%99%E8%82%B2%E5%B9%B3%E5%8F%B0%C2%B72026%E6%9A%91%E6%9C%9F%E6%95%99%E5%B8%88%E7%A0%94%E4%BF%AE%C2%B7%E7%A7%92%E5%88%B7%E5%AD%A6%E4%B9%A0%E5%8A%A9%E6%89%8B.user.js)
    - 或访问 ScriptCat 市场搜索「智慧中小学秒刷」
+   - 📦 **本地副本**：仓库内 [smartedu-flash.user.js](smartedu-flash.user.js)（已修复收款码显示问题，可直接安装）
 
 3. **运行**
    - 打开 [https://basic.smartedu.cn/training/2026jjsqpx](https://basic.smartedu.cn/training/2026jjsqpx)
@@ -91,6 +92,14 @@ Authorization: MAC id="access_token",nonce="timestamp:random",mac="base64_signat
 raw = nonce + "\n" + method + "\n" + path + "\n" + host + "\n"
 signature = HMAC-SHA256(mac_key, raw)
 ```
+
+## 💝 赞助
+
+如果这个工具帮到了你，欢迎请我们喝杯咖啡 ☕
+
+| 微信支付 | 支付宝 |
+|:--------:|:------:|
+| ![微信](sponsor/wechat.jpg) | ![支付宝](sponsor/alipay.jpg) |
 
 ## 免责声明
 
